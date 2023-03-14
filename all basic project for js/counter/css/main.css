@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    display: grid;
+    min-height: 100%;
+    place-content: center;
+}
+.card{
+    width: 400px;
+    height: 300px;
+    background-color: rgb(237, 230, 230);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 10px 10px 30px rgb(44, 42, 42);
+    border-radius: 20px;
+}
+.name{
+    font-size: 30px;
+    font-weight: 600;
+}
+#counter{
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.counterBtn{
+    font-size: 1.5rem;
+    padding: 6px 10px;
+    outline: nones;
+    margin: 10px;
+    cursor: pointer;
+}
